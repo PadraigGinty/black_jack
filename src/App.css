@@ -1,38 +1,136 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.background{
+  background-image: -webkit-linear-gradient(135deg,  #03440c 40%, #048015 90%);
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-top: 20px
 }
 
-.App-link {
-  color: #61dafb;
+.playerArea{
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 200px;
+  width: 60%;
+  margin: 5px;
+}
+.dealerArea{
+  height: 200px;
+  margin: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header{
+  color: rgb(226, 212, 6);
+  margin: -20px 5px 5px 5px;
+}
+h3{
+  color: rgb(226, 212, 6);
+  margin: 0px;
+}
+
+h4{
+  margin: 0px;
+}
+
+button{
+  width: 30%;
+  height: 50%;
+  margin: 5px 2px;
+}
+
+.card {
+  height: 180px;
+  width: 117px;
+  margin: 10px -20px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 #3c3f41;
+  border-radius: 8px;
+  background-size: cover;
+}
+
+.modal{
+  display: 'flex';
+  align-items: 'center';
+  justify-content: 'center';
+}
+
+.paper{
+  border: '2px solid #000';
+}
+
+.pokerHand{
+  height: 130px;
+  width: auto;
+  fill: gold;
+ }
+
+.App-header{
+  background-image: -webkit-radial-gradient(#03440c, black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 5px #254d04;
+  position:relative;
+}
+
+.betArea{
+  border: 2px solid white;
+  border-radius: 3px;
+  width: 40%;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.betButton{
+  width: 30%;
+  height: 80%;
+  margin: 5px 2px;
+  
+}
+
+.newGame{
+  width: 180px;
+  margin: 20px;
+  height: 25px;
+}
+
+.buttonArea{
+  margin: 5px 0px 40px 0px;
+  width: 40%;
+  border: 2px solid white;
+  border-radius: 3px 3px 50% 50%;
+  height: 70px;
+}
+
+.buttonArea :first-child{
+  border-radius: 0px 0px 0% 15px;
+}
+
+.buttonArea :last-child{
+  border-radius: 0px 0px 15px 0%;
+}
+
+.bet{
+  width: 30%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.betDiv{
+  display: contents;
+}
+
+button{
+  width: 30%;
+  height: 50%;
+  margin: 5px 2px;
 }
