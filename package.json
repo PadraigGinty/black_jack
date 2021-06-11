@@ -2,7 +2,7 @@
   "name": "black_jack",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://PadraigGinty.github.io/black-jack",
+  "homepage": "http://PadraigGinty.github.io/black_jack",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@testing-library/jest-dom": "^5.13.0",
