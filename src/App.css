@@ -77,6 +77,7 @@ button{
   justify-content: center;
   box-shadow: 0 4px 8px 5px #254d04;
   position:relative;
+  height: 20vh;
 }
 
 .betArea{
@@ -93,7 +94,6 @@ button{
   width: 30%;
   height: 80%;
   margin: 5px 2px;
-  
 }
 
 .newGame{
